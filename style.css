@@ -1,23 +1,36 @@
+
+
 body {
-	background-color: darkslategrey;
-	font-size: 100%
+	background-color: #788994;
+	font-size: 100%;
+	
 }
 
 #title {
-	color: white;
+	color: #F3E9C5;
 	font-size: 1.5em;
-	font-family: sans-serif;
+	font-family: 'Special Elite', cursive;
+	background-image: url("blake.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-left:50px;
+	
+
 }
 
 #mainColumn {
+	color: 788994;
 	margin: 0 auto;
 	width: 90%;
 }
 #nav {
 	width: 20%;
 	float: left;
-	background: lightgrey;
+	background:#504963;
 	padding: 0 .25em;
+	font-family: 'Special Elite' , cursive;
 }
 #nav h2{
 	font-size:1em;
@@ -25,9 +38,10 @@ body {
 #content {
 	float: left;
 	width: 75%;
-	background-color: white;
+	background-color:#543843;
+	color:#F3E9C5;
 	padding: 1em;
-	font-family: serif;
+	font-family: 'Slabo 13px' , serif;
 }
 #illustration {
 	text-align: center;
